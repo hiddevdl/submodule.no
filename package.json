@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "a harp app on heroku",
   "dependencies": {
-    "harp": "*",
-    "nib": "^1.0.3"
+    "harp": "*"
   },
   "engines": {
     "node": "0.10.x",
