@@ -1,0 +1,13 @@
+{
+  "name": "harpie",
+  "version": "1.0.0",
+  "description": "a harp app on heroku",
+  "dependencies": {
+    "harp": "*",
+    "nib": "^1.0.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}

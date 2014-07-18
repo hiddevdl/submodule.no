@@ -1,0 +1,28 @@
+[outer-radius] == 20;
+
+#profile {
+	width: == ::window[width] / 2;
+	height: == ::window[height]  /2;
+	center-x: == ::window[center-x];
+	center-y: == ::window[center-y];
+	border-radius: == [outer-radius];
+	background-color: yellow;
+}
+
+#cover {
+	background-color: pink;
+	border-radius: == #profile[border-radius] /2;
+}
+
+@v |-30-[#avatar]-| in(#cover);
+
+@v |-10-[#cover]-10-| in(#profile);
+@h |-10-[#cover]-10-| in(#profile);
+
+#avatar {
+	height: == 160 !require;
+	width: == ::[height];
+	border-radius: == ::[height] / 2;
+	background-color: green;
+	center-x: == #cover[center-x];
+}

@@ -1,0 +1,4 @@
+//GSS_CONFIG.json
+GSS_CONFIG = {
+	worker: "bower_components/gss/dist/worker.js"
+}
